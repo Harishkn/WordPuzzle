@@ -1,0 +1,173 @@
+﻿	
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Hindi MP3 Songs, Bollywood Old Movie Songs, Pakistani Songs - Songx.PK</title>
+    <meta name="Description"
+          content="SongXs.pk provides wide collection of Pakistani and Indian music to music lover all over the world. We give all songs in mp3 format, along with lyrics and HD videos."/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link href="/style.css" rel="stylesheet" type="text/css"/>
+    <meta name="google-site-verification" content="K9b17hqsV42UYTRRj1gY1eeBM9CeKgT0hfXk8r2hrCg" />
+    <link href="/favicon.ico" rel='shortcut icon'/>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/helper.js"></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="/"><img src="/img/logo.png"
+                                              class="img-responsive"></a>
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="/hindi-songs">Hindi Songs</a></li>
+            </ul>
+            <form role="form" id="searchform" method="get" action="/">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-8">
+                        <div class="input-group" style="padding:10px 0;">
+                            <input type="text" autocomplete="off" class="form-control" id="query" name="q"
+                                   placeholder="Type Track Name and Press Search Button" required>
+                            <span class="input-group-btn">
+<button class="btn btn-success" id="searchsubmit" type="submit"><span class="glyphicon glyphicon-search"></span>
+</button>
+</span>
+                        </div>
+                        <div id="tag_update"></div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div id="header-spacer">&nbsp;</div>
+<div class="container">
+    <div class="header-wrapper">
+        <div class="row">
+            <div class="col-lg-12">
+
+                <div class="col-sm-6 col-md-4" style="padding: 0px !important">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3 style="margin-top: 0px !important;">Best Songs</h3>
+
+                            <p>
+                                &raquo; <a title="Rangoon Songs Download" href="/hindi-songs/rangoon.html">Rangoon mp3</a><br>&raquo; <a title="Coffee with D (2017) Songs Download" href="/hindi-songs/coffee-with-d-2017.html">Coffee with D (2017) mp3</a><br>&raquo; <a title="OK Jaanu (2017) Songs Download" href="/hindi-songs/ok-jaanu-2017.html">OK Jaanu (2017) mp3</a><br>&raquo; <a title="Raees (2017) Songs Download" href="/hindi-songs/raees-2017.html">Raees (2017) mp3</a><br>&raquo; <a title="Jolly Ll.B 2 (2017) Songs Download" href="/hindi-songs/jolly-ll-b-2-2017.html">Jolly Ll.B 2 (2017) mp3</a><br>&raquo; <a title="Kaabil (2017) Songs Download" href="/hindi-songs/kaabil-2017.html">Kaabil (2017) mp3</a><br>&raquo; <a title="Kahaani 2 (2016) Songs Download" href="/hindi-songs/kahaani-2-2016.html">Kahaani 2 (2016) mp3</a><br>&raquo; <a title="Dangal (2016) Songs Download" href="/hindi-songs/dangal-2016.html">Dangal (2016) mp3</a><br>&raquo; <a title="Dear Zindagi (2016) Songs Download" href="/hindi-songs/dear-zindagi-2016.html">Dear Zindagi (2016) mp3</a><br>&raquo; <a title="Saansein (2016) Songs Download" href="/hindi-songs/saansein-2016.html">Saansein (2016) mp3</a><br>                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4" style="padding: 0 2px !important">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3 style="margin-top: 0px !important;">New Songs</h3>
+
+                            <p>
+                                &raquo; <a title="Dongri Ka Raja (2016) Songs Download" href="/hindi-songs/dongri-ka-raja-2016.html">Dongri Ka Raja (2016) mp3</a><br>&raquo; <a title="Wajah Tum Ho (2016) Songs Download" href="/hindi-songs/wajah-tum-ho-2016.html">Wajah Tum Ho (2016) mp3</a><br>&raquo; <a title="Aap Se Mausiiquii (2016) Songs Download" href="/hindi-songs/aap-se-mausiiquii-2016.html">Aap Se Mausiiquii (2016) mp3</a><br>&raquo; <a title="Force 2 (2016) Songs Download" href="/hindi-songs/force-2-2016.html">Force 2 (2016) mp3</a><br>&raquo; <a title="Befikre (2016) Songs Download" href="/hindi-songs/befikre-2016.html">Befikre (2016) mp3</a><br>&raquo; <a title="Tutak Tutak Tutiya (2016) Songs Download" href="/hindi-songs/tutak-tutak-tutiya-2016.html">Tutak Tutak Tutiya (2016) mp3</a><br>&raquo; <a title="Ae Dil Hai Mushkil (2016) Songs Download" href="/hindi-songs/ae-dil-hai-mushkil-2016.html">Ae Dil Hai Mushkil (2016) mp3</a><br>&raquo; <a title="Tum Bin 2 (2016) Songs Download" href="/hindi-songs/tum-bin-2-2016.html">Tum Bin 2 (2016) mp3</a><br>&raquo; <a title="Fuddu (2016) Songs Download" href="/hindi-songs/fuddu-2016.html">Fuddu (2016) mp3</a><br>&raquo; <a title="Shivaay (2016) Songs Download" href="/hindi-songs/shivaay-2016.html">Shivaay (2016) mp3</a><br>                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4" style="padding: 0px !important">
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3 style="margin-top: 0px !important;">Most favourite Songs</h3>
+
+                            <p>
+                                &raquo; <a title="Rock On 2 (2016) Songs Download" href="/hindi-songs/rock-on-2-2016.html">Rock On 2 (2016) mp3</a><br>&raquo; <a title="Love Day - Pyaar Kaa Din (2016) Songs Download" href="/hindi-songs/love-day-pyaar-kaa-din-2016.html">Love Day - Pyaar Kaa Din (2016) mp3</a><br>&raquo; <a title="Mirzya (2016) Songs Download" href="/hindi-songs/mirzya-2016.html">Mirzya (2016) mp3</a><br>&raquo; <a title="Ek Kahani Julie Ki (2016) Songs Download" href="/hindi-songs/ek-kahani-julie-ki-2016.html">Ek Kahani Julie Ki (2016) mp3</a><br>&raquo; <a title="Pink (2016) Songs Download" href="/hindi-songs/pink-2016.html">Pink (2016) mp3</a><br>&raquo; <a title="Freaky Ali (2016) Songs Download" href="/hindi-songs/freaky-ali-2016.html">Freaky Ali (2016) mp3</a><br>&raquo; <a title="Banjo (2016) Songs Download" href="/hindi-songs/banjo-2016.html">Banjo (2016) mp3</a><br>&raquo; <a title="Raaz Reboot (2016) Songs Download" href="/hindi-songs/raaz-reboot-2016.html">Raaz Reboot (2016) mp3</a><br>&raquo; <a title="Akira (2016) Songs Download" href="/hindi-songs/akira-2016.html">Akira (2016) mp3</a><br>&raquo; <a title="Janaan (2016) Songs Download" href="/hindi-songs/janaan-2016.html">Janaan (2016) mp3</a><br>                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <br clear="all"/>
+
+                <div align="center" style="margin-bottom:10px;">
+                    <center>
+                        <!-- <script type="text/javascript">     atOptions = {
+                                 'key': '627a11108d012767d2524fc2686da2b0',
+                                 'format': 'iframe',
+                                 'height': 250,
+                                 'width': 300,
+                                 'params': {}
+                             };
+                             document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.bnhtml.com/invoke.js"></scr' + 'ipt>'); </script>
+                         <script src="//creative.wwwpromoter.com/4346.js?d=300x250" type="text/javascript"></script> -->
+                        <!--<script src="http://admaster.union.ucweb.com/js/union_html5_sdk.js"></script>-
+                        <script>
+                            try{
+                                Umobi.AdView({
+                                    pub:"shipw@Xsongspk",
+                                    format_type:Umobi.AdFormatType.BANNER
+                                });
+                            }catch(e){}
+                        </script>-->
+                    </center>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><span title="Now Playing"
+                                                      class="glyphicon glyphicon-play-circle"></span>Tracks Playing Now
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <a href="/lii.html" class="btn btn-tag btn-xs" title="Lii">Lii</a><a href="/shaman-ali-new.html" class="btn btn-tag btn-xs" title="Shaman Ali New">Shaman Ali New</a><a href="/dua-by-atif-aslam.html" class="btn btn-tag btn-xs" title="Dua By Atif Aslam">Dua By Atif Aslam</a><a href="/sajdi-hey-sardai-o-sardar-ali-hey.html" class="btn btn-tag btn-xs" title="Sajdi Hey Sardai O Sardar Ali Hey">Sajdi Hey Sardai O Sardar Ali Hey</a><a href="/aansoo-bhari-hain-yeh-jeevan-ki-rahen.html" class="btn btn-tag btn-xs" title="Aansoo Bhari Hain Yeh Jeevan Ki Rahen">Aansoo Bhari Hain Yeh Jeevan Ki Rahen</a><a href="/mut-ro-mere-dil-chup-ho-ja.html" class="btn btn-tag btn-xs" title="Mut Ro Mere Dil Chup Ho Ja">Mut Ro Mere Dil Chup Ho Ja</a><a href="/arish-ka-bhana.html" class="btn btn-tag btn-xs" title="Arish Ka Bhana">Arish Ka Bhana</a><a href="/judai-da-judai.html" class="btn btn-tag btn-xs" title="Judai Da Judai">Judai Da Judai</a><a href="/tut-gae-tarak-karke.html" class="btn btn-tag btn-xs" title="Tut Gae Tarak Karke">Tut Gae Tarak Karke</a><a href="/roa.html" class="btn btn-tag btn-xs" title="Roa">Roa</a><a href="/seraiki-naat.html" class="btn btn-tag btn-xs" title="Seraiki Naat">Seraiki Naat</a><a href="/kadi-shoni-lgdi-ay-patlo-je.html" class="btn btn-tag btn-xs" title="Kadi Shoni Lgdi Ay Patlo Je">Kadi Shoni Lgdi Ay Patlo Je</a><a href="/akala-nacho-ga.html" class="btn btn-tag btn-xs" title="Akala Nacho Ga">Akala Nacho Ga</a><a href="/suno-suno-ek-kahani-suno.html" class="btn btn-tag btn-xs" title="Suno Suno Ek Kahani Suno">Suno Suno Ek Kahani Suno</a><a href="/atay.html" class="btn btn-tag btn-xs" title="Atay">Atay</a><a href="/stay-by-carol-banawa.html" class="btn btn-tag btn-xs" title="Stay By Carol Banawa">Stay By Carol Banawa</a><a href="/ya-nbi-sb-krm-ha-tmra-y.html" class="btn btn-tag btn-xs" title="Ya Nbi Sb Krm Ha Tmra Y">Ya Nbi Sb Krm Ha Tmra Y</a><a href="/allha-ke-99-name.html" class="btn btn-tag btn-xs" title="Allha Ke 99 Name">Allha Ke 99 Name</a><a href="/new-naat-by-shakeel-ashraf.html" class="btn btn-tag btn-xs" title="New Naat By Shakeel Ashraf">New Naat By Shakeel Ashraf</a><a href="/gippy-grewal-new-movie.html" class="btn btn-tag btn-xs" title="Gippy Grewal New Movie">Gippy Grewal New Movie</a>                    </div>
+                </div>
+                <br clear="all"/>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><span title="Forever Songs" class="glyphicon glyphicon-fire"></span>
+                            Forever Young Songs</h3>
+                    </div>
+                    <div class="panel-body">
+                        <a href="/best-of-munni-begum-songs.html" class="btn btn-tag btn-xs" title="Best Of Munni Begum Songs">Best Of Munni Begum Songs</a><a href="/koi-fariyaad-full-song-hd-1080p.html" class="btn btn-tag btn-xs" title="Koi Fariyaad Full Song Hd 1080p">Koi Fariyaad Full Song Hd 1080p</a><a href="/ranveer.html" class="btn btn-tag btn-xs" title="Ranveer">Ranveer</a><a href="/top-beautiful-song.html" class="btn btn-tag btn-xs" title="Top Beautiful Song">Top Beautiful Song</a><a href="/new-song-yo-yo-honey-sing-2016.html" class="btn btn-tag btn-xs" title="New Song Yo Yo Honey Sing 2016">New Song Yo Yo Honey Sing 2016</a><a href="/thiri-swe.html" class="btn btn-tag btn-xs" title="Thiri Swe">Thiri Swe</a><a href="/mai-jaha-rahu-mai-kahi-b-hoo.html" class="btn btn-tag btn-xs" title="Mai Jaha Rahu Mai Kahi B Hoo">Mai Jaha Rahu Mai Kahi B Hoo</a><a href="/widespread-panic-surprise-valley.html" class="btn btn-tag btn-xs" title="Widespread Panic Surprise Valley">Widespread Panic Surprise Valley</a><a href="/news-beautiful-songs.html" class="btn btn-tag btn-xs" title="News Beautiful Songs">News Beautiful Songs</a><a href="/i-love-you-like-love-song.html" class="btn btn-tag btn-xs" title="I Love You Like Love Song">I Love You Like Love Song</a><a href="/kehanb-hath-halaya-by-fozia.html" class="btn btn-tag btn-xs" title="Kehanb Hath Halaya By Fozia">Kehanb Hath Halaya By Fozia</a><a href="/ayemerayhumsafarikzaraintizar.html" class="btn btn-tag btn-xs" title="Ayemerayhumsafarikzaraintizar">Ayemerayhumsafarikzaraintizar</a><a href="/bjhagg-movi-songs.html" class="btn btn-tag btn-xs" title="Bjhagg Movi Songs">Bjhagg Movi Songs</a><a href="/adio-song-noor-jahan.html" class="btn btn-tag btn-xs" title="Adio Song Noor Jahan">Adio Song Noor Jahan</a><a href="/main-chup-khara-hua-hon.html" class="btn btn-tag btn-xs" title="Main Chup Khara Hua Hon">Main Chup Khara Hua Hon</a><a href="/ali-haider-purano-jeans.html" class="btn btn-tag btn-xs" title="Ali Haider Purano Jeans">Ali Haider Purano Jeans</a><a href="/bilal-by-khair-mangdi.html" class="btn btn-tag btn-xs" title="Bilal By Khair Mangdi">Bilal By Khair Mangdi</a><a href="/amber-me-has.html" class="btn btn-tag btn-xs" title="Amber Me Has">Amber Me Has</a><a href="/openemu.html" class="btn btn-tag btn-xs" title="Openemu">Openemu</a><a href="/fakhir-song-kash-hum-juda-na-hoty.html" class="btn btn-tag btn-xs" title="Fakhir Song Kash Hum Juda Na Hoty">Fakhir Song Kash Hum Juda Na Hoty</a>                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div align="center" class="col-md-12">
+    <br>
+
+    <p class="text-muted">Copyright &copy; 2001 - 2017 <a href="/">xSongs.PK</a>. <a href="/pages/static/contact.php">Contact
+            us</a>
+        - <a href="/pages/static/disclaimer.php">Disclaimer</a>
+    </p>
+</div>
+<div align="center" style="margin-bottom:10px;">
+
+</div>
+<div class="scroll-top-wrapper ">
+<span class="scroll-top-inner">
+<font style="font-size:30px;">
+    <span title="Back to Top" class="glyphicon glyphicon-circle-arrow-up"></span>
+</font>
+</span>
+</div>
+<div id="scrollbubble"></div>
+    <div style="visibility:hidden">
+        <img src="http://whos.amung.us/swidget/h20u7k1bx8da.png" alt="songs.pk" width="0" height="0"/>
+        <!-- Yandex.Metrika counter -->
+        <script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+        <script type="text/javascript">try {
+                var yaCounter28114533 = new Ya.Metrika({id: 28114533});
+            } catch (e) {
+            }</script>
+        <noscript>
+            <div><img src="//mc.yandex.ru/watch/28114533" style="position:absolute; left:-9999px;" alt=""/></div>
+        </noscript>
+        <!-- /Yandex.Metrika counter -->
+    </div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
