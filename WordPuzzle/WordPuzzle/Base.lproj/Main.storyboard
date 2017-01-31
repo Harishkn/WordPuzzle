@@ -117,16 +117,16 @@
                                         <rect key="frame" x="87" y="85" width="200" height="200"/>
                                         <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="200" id="giY-fz-dnd"/>
-                                            <constraint firstAttribute="width" constant="200" id="ylC-Jt-rUD"/>
+                                            <constraint firstAttribute="height" constant="200" id="lgz-4Q-ltw"/>
+                                            <constraint firstAttribute="width" constant="200" id="xzj-bf-FhF"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="41"/>
+                                        <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="28"/>
                                         <state key="normal" title="Start">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="100"/>
+                                                <integer key="value" value="75"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -143,13 +143,13 @@
                                     <constraint firstItem="Sck-am-mVn" firstAttribute="leading" secondItem="qSs-3K-3g4" secondAttribute="trailing" constant="8" id="OIc-O0-8Zx"/>
                                     <constraint firstItem="qSs-3K-3g4" firstAttribute="centerX" secondItem="aoV-Ov-946" secondAttribute="centerX" id="OMh-Yw-rMz"/>
                                     <constraint firstAttribute="trailing" secondItem="iQ6-3f-v73" secondAttribute="trailing" constant="8" id="Pwh-J0-ate"/>
+                                    <constraint firstItem="uaJ-eS-Mxx" firstAttribute="centerY" secondItem="aoV-Ov-946" secondAttribute="centerY" id="R7g-XC-DYj"/>
                                     <constraint firstItem="qSs-3K-3g4" firstAttribute="centerY" secondItem="aoV-Ov-946" secondAttribute="centerY" id="TFd-s5-Jyj"/>
-                                    <constraint firstItem="uaJ-eS-Mxx" firstAttribute="centerX" secondItem="aoV-Ov-946" secondAttribute="centerX" id="TbJ-dQ-Tcl"/>
                                     <constraint firstItem="CBe-aM-bkE" firstAttribute="centerX" secondItem="aoV-Ov-946" secondAttribute="centerX" id="U4e-t2-vhD"/>
                                     <constraint firstItem="iQ6-3f-v73" firstAttribute="leading" secondItem="aoV-Ov-946" secondAttribute="leading" constant="8" id="kJX-xg-uhY"/>
                                     <constraint firstItem="qSs-3K-3g4" firstAttribute="leading" secondItem="aTV-yX-hmy" secondAttribute="trailing" constant="8" id="lej-0H-FD3"/>
+                                    <constraint firstItem="uaJ-eS-Mxx" firstAttribute="centerX" secondItem="aoV-Ov-946" secondAttribute="centerX" id="rVL-Cp-FYM"/>
                                     <constraint firstAttribute="bottom" secondItem="iQ6-3f-v73" secondAttribute="bottom" constant="8" id="tyj-Wq-20x"/>
-                                    <constraint firstItem="uaJ-eS-Mxx" firstAttribute="centerY" secondItem="aoV-Ov-946" secondAttribute="centerY" id="zJw-jz-Low"/>
                                     <constraint firstItem="qSs-3K-3g4" firstAttribute="top" secondItem="9ER-cH-2Rq" secondAttribute="bottom" constant="8" id="zwL-Pq-YV9"/>
                                 </constraints>
                             </view>
@@ -337,7 +337,11 @@
                         <outlet property="button4" destination="CBe-aM-bkE" id="pzb-IA-v3m"/>
                         <outlet property="button5" destination="qSs-3K-3g4" id="lEd-2f-nAj"/>
                         <outlet property="correctWord" destination="iQ6-3f-v73" id="S8E-dm-0ry"/>
-                        <outlet property="secondView" destination="aoV-Ov-946" id="3Wt-XY-OKt"/>
+                        <outlet property="label1" destination="IUg-5e-o5S" id="IEl-MZ-bYX"/>
+                        <outlet property="label2" destination="jwD-KY-yiD" id="k3G-HB-3Fo"/>
+                        <outlet property="label3" destination="RWT-Qe-fl0" id="wO4-Gt-uOF"/>
+                        <outlet property="label4" destination="fEs-64-Raf" id="94S-Uc-OM0"/>
+                        <outlet property="secondView" destination="aoV-Ov-946" id="csd-lX-KoM"/>
                         <outlet property="startButton" destination="uaJ-eS-Mxx" id="LEj-t2-ryN"/>
                         <outlet property="wAttempLbl" destination="c00-jr-caT" id="amx-5x-Xe3"/>
                         <outlet property="wordScore" destination="EIe-3Z-3WP" id="Jug-VJ-X5F"/>
@@ -349,7 +353,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1516" y="990"/>
+            <point key="canvasLocation" x="1516" y="989.95502248875573"/>
         </scene>
         <!--Word-->
         <scene sceneID="ioL-8e-Rvx">

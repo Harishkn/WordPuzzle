@@ -12,9 +12,14 @@
 @interface ViewController : UIViewController
 @property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *lableCollection;
 @property (strong, nonatomic) IBOutlet UILabel *wordScore;
-
-
 @property (strong, nonatomic) IBOutlet TestView *secondView;
+
+@property (strong, nonatomic) IBOutlet UILabel *label1;
+@property (strong, nonatomic) IBOutlet UILabel *label2;
+@property (strong, nonatomic) IBOutlet UILabel *label3;
+@property (strong, nonatomic) IBOutlet UILabel *label4;
+
+
 @property(assign,nonatomic)int percentage;
 @property (strong, nonatomic) IBOutlet UIButton *startButton;
 

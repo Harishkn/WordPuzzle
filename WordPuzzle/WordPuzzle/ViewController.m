@@ -11,11 +11,8 @@
 #import <QuartzCore/QuartzCore.h>
 #import <AVFoundation/AVFoundation.h>
 
-@interface ViewController ()<AVAudioPlayerDelegate>
-{
-   
-    AVAudioPlayer *player;
-}
+@interface ViewController ()
+
 
 
 @property (strong, nonatomic) IBOutlet UIButton *button1;
@@ -61,7 +58,7 @@
     self.compareString = [[NSMutableString alloc]init];
     characters = [[NSMutableArray alloc] initWithCapacity:[self.letter length]];
    
-    self.list = [[NSArray alloc]initWithObjects:@"note",@"tone",@"word",@"gone",@"nice",@"came",@"pick",@"kick",@"kill",@"loop",@"mood",@"luck",@"temp",@"hide", @"jazz",@"fuzz",@"fizz",@"hajj",@"juju",@"quiz",@"razz",@"jeez",@"jeux",@"jinx",@"jock",@"able",@"know",@"kiwi",@"wiki",@"kite",@"lack",@"lacs",@"lacy",@"lade",@"lead",@"deal",@"lads",@"lady",@"lags",@"laic",@"laid",@"lain",@"lard",@"fork",@"form",@"fort",@"foul",@"four",@"fowl",@"foxy",@"fray",@"free",@"fret",@"friz",@"frog",@"from",@"fuel",@"full",@"fume",@"fumy",@"fund",@"funk",@"furs",@"fury", @"gulp",@"plug",@"gums",@"gunk",@"guns",@"guru",@"gush", @"gust",@"guys",@"gyms",@"gyps",@"gyre",@"gyro",@"hack",@"hags",@"hail",@"hair",@"half",@"hall",@"halo",@"halt",@"hams",@"hand",@"hang",@"gang",@"mage",@"magi",@"maid",@"mail",@"maim",@"main",@"make",@"male",@"mall",@"malt",@"pool",@"loop",@"polo",@"game",@"gusy",@"flow",@"wolf",@"slag",@"nail",@"guts",nil];
+    self.list = [[NSArray alloc]initWithObjects:@"note",@"tone",@"word",@"gone",@"nice",@"came",@"pick",@"kick",@"kill",@"loop",@"mood",@"luck",@"temp",@"hide", @"jazz",@"fuzz",@"fizz",@"hajj",@"juju",@"quiz",@"razz",@"jeez",@"jeux",@"jinx",@"jock",@"able",@"know",@"kiwi",@"wiki",@"kite",@"lack",@"lacs",@"lacy",@"lade",@"lead",@"deal",@"lads",@"lady",@"lags",@"laic",@"laid",@"lain",@"lard",@"fork",@"form",@"fort",@"foul",@"four",@"fowl",@"foxy",@"fray",@"free",@"fret",@"friz",@"frog",@"from",@"fuel",@"full",@"fume",@"fumy",@"fund",@"funk",@"furs",@"fury", @"gulp",@"plug",@"gums",@"gunk",@"guns",@"guru",@"gush",@"clay", @"gust",@"guys",@"gyms",@"gyps",@"gyre",@"gyro",@"hack",@"hags",@"hail",@"hair",@"half",@"hall",@"halo",@"halt",@"hams",@"hand",@"hang",@"gang",@"mage",@"magi",@"maid",@"mail",@"maim",@"main",@"make",@"male",@"mall",@"malt",@"pool",@"loop",@"polo",@"game",@"gusy",@"flow",@"wolf",@"slag",@"nail",@"guts",@"lame",nil];
   
     
     [self.startButton makeGlossy];
@@ -83,9 +80,6 @@
     if (self.percentage>0.0) {
         self.percentage-=1.0;
         
-        if (self.percentage==16) {
-            [self playAudio];
-        }
         
         self.secondView.percent+=1.0;
         [self.secondView setNeedsDisplayInRect:self.secondView.bounds];
@@ -96,13 +90,16 @@
     else
     {
         [m_timer invalidate];
+      //  [self.secondView setHidden:NO];
         m_timer = nil;
       
-        [self.startButton setHidden:NO];
-        
+       
+       
         UIAlertController* controller = [UIAlertController alertControllerWithTitle:[NSString stringWithFormat:@"%d",score] message:@"Time Over" preferredStyle:UIAlertControllerStyleAlert];
        
-        UIAlertAction *action = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:nil];
+        UIAlertAction *action = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            [self.startButton setHidden:NO];
+        }];
         
         [controller addAction:action];
         
@@ -110,11 +107,8 @@
         [self presentViewController:controller animated:YES completion:^{
             NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
             
+            self.correctWord.text =[NSString stringWithFormat:@"%@",self.letter];
             
-            NSLog(@"%@",self.letter);
-            
-           // self.correctWord.text = [NSString stringWithFormat:@"%@",_letter];
-            self.correctWord.text = self.letter;
             NSInteger bestScore = [defaults integerForKey:@"HighScore"];
             
             if (score>=bestScore)
@@ -139,7 +133,7 @@
         }];
         
        
-        [self stopAudio];
+       
         
     }
     
@@ -191,7 +185,7 @@
     if ([_numbers count]<4) {
         if ([self.numbers containsObject:[NSNumber numberWithInt:k]])
         {
-            //            r = arc4random_uniform((int)[self.letter length]-1);
+            
             [self generateRandomNumber];
         }
         else
@@ -260,7 +254,7 @@
     i++;
     [self.compareString appendString:[NSString stringWithFormat:@"%@",self.button3.currentTitle]];
     [self.button3 setEnabled:NO];
-    //[self checkingResults];
+   
     [self delayFunction];
 }
 - (IBAction)button4:(id)sender {
@@ -307,10 +301,7 @@
             [self.button5 setImage:[UIImage imageNamed:@"Checkmark-528"]forState:UIControlStateNormal];
             score+=1;
             self.percentage+=1.0;
-            if (self.percentage>16) {
-                [self stopAudio];
-            }
-            [player setCurrentTime:CACurrentMediaTime()];
+            
             self.secondView.percent-=1.0;
             [self.secondView setNeedsDisplayInRect:self.secondView.bounds];
             [self.view addSubview:self.secondView];
@@ -409,12 +400,10 @@
     [[self.lableCollection objectAtIndex:3] setText:[NSString stringWithFormat:@"%@",@""]];
 }
 
--(void)ButtonUI{
-    
-}
+
 - (IBAction)startGame:(id)sender {
     
-    
+   // [self.secondView setHidden:NO];
     [self.startButton setHidden:YES];
     wAttempts=0;
     self.correctWord.text = [NSString stringWithFormat:@"Possible word"];
@@ -455,32 +444,6 @@
     
 }
 
--(void)playAudio
-{
-    NSString *music=[[NSBundle mainBundle] pathForResource:@"audio1" ofType:@"mp3"];
-    
-    NSURL *outputFileURL = [[NSURL alloc] initFileURLWithPath:music];
-    
-    
-    
-    player = [[AVAudioPlayer alloc] initWithContentsOfURL:outputFileURL error:nil];
-    [player setDelegate:self];
-    
-    [player play];
-}
-
--(void)stopAudio
-{
-    [player stop];
-}
-
--(void)audioForward
-{
-    
-    
-    [player setCurrentTime:self.percentage];
-    
-}
 
 
 @end
